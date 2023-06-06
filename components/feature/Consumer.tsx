@@ -1,56 +1,58 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 const product1 = [
   {
-    productname: "Soft chairs",
+    productname: "Smart watches",
     title: "From USD 19",
-    img: "/../assets/chair.png",
+    img: "/../assets/watch.png",
   },
   {
-    productname: "Sofa & chair",
-    title: "From USD 19",
-    img: "/../assets/bulb.png",
+    productname: "Cameras",
+    title: "From USD 89",
+    img: "/../assets/camera.png",
   },
   {
-    productname: "Kitchen dishes",
-    title: "From USD 19",
-    img: "/../assets/dishes.png",
+    productname: "Headphones",
+    title: "From USD 10",
+    img: "/../assets/headphone2.png",
   },
   {
     productname: "Smart watches",
-    title: "From USD 19",
-    img: "/../assets/pot.png",
+    title: "From USD 90",
+    img: "/../assets/jug.png",
   },
   {
-    productname: "Kitchen mixer",
-    title: "From USD 19",
-    img: "/../assets/mixer.png",
+    productname: "Gaming set",
+    title: "From USD 35",
+    img: "/../assets/headphone.png",
   },
   {
-    productname: "Blenders",
-    title: "From USD 19",
-    img: "/../assets/blender.png",
+    productname: "Laptops & PC",
+    title: "From USD 340",
+    img: "/../assets/laptop.png",
   },
   {
-    productname: "Home appliance",
+    productname: "Smartphones",
     title: "From USD 19",
-    img: "/../assets/appliance.png",
+    img: "/../assets/mobile2.png",
   },
   {
-    productname: "Coffee maker",
-    title: "From USD 19",
-    img: "/../assets/coffee.png",
+    productname: "Electric kattle",
+    title: "From USD 240",
+    img: "/../assets/mobile3.png",
   },
 ];
-const Homeandoutdoor = () => {
+const Consumer = () => {
   return (
     <>
       <div className="bg-[#F5F5F5] pt-[23px]">
         <div className="container mx-auto flex bg-[#FFFFFF]  border-[1px] border-solid border-[#DEE2E7] rounded-[6px]">
-          <div className="basis-[23%] relative banner2 h-[260px]">
+          <div className="basis-[23%] relative banner3 h-[260px]">
             <div className="absolute flex gap-[18px] flex-col top-[10%] left-[10%]">
               <h2 className="font-Inter font-semibold text-xl leading-[26px] tracking-[-0.2px] text-[#1C1C1C]">
-                Home and <br /> outdoor
+                Consumer
+                <br /> electronic and <br /> gadgets
               </h2>
               <div className="flex justify-center items-center w-[123px] h-[40px] bg-[white] ">
                 <Link
@@ -94,4 +96,4 @@ const Homeandoutdoor = () => {
   );
 };
 
-export default Homeandoutdoor;
+export default Consumer;

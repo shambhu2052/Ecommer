@@ -43,7 +43,7 @@ const Navbar = () => {
               <h2 className="font-Inter font-medium text-base leading-[22px] text-[#1C1C1C]">
                 Ship to
               </h2>
-              <img src="/../assets/flag.png" alt="image of flag" />
+              <img src="/../assets/threecolor.png" alt="image of flag" />
               <IoIosArrowDown className="text-[#8B96A5]" />
             </div>
           </div>
